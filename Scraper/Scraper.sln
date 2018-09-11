@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{20A3C5B9-DE06-4AF7-B3AC-5C0E3399A690}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{A79E8BDD-A36B-4851-ADED-D497744C9F77}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{6CF983AA-C723-408B-851F-2D484A62EAAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scraper.Core", "Scraper.Core\Scraper.Core.csproj", "{23D24B5C-E4FC-4AF6-9FC0-3E6831641A8D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{23D24B5C-E4FC-4AF6-9FC0-3E6831641A8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23D24B5C-E4FC-4AF6-9FC0-3E6831641A8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23D24B5C-E4FC-4AF6-9FC0-3E6831641A8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23D24B5C-E4FC-4AF6-9FC0-3E6831641A8D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{23D24B5C-E4FC-4AF6-9FC0-3E6831641A8D} = {20A3C5B9-DE06-4AF7-B3AC-5C0E3399A690}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AD43A705-FABF-47AD-8670-7EB02499DAF4}
+	EndGlobalSection
+EndGlobal
