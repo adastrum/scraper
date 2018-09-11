@@ -1,8 +1,11 @@
-﻿using AutoMapper;
+﻿using System.Reflection;
+using AutoMapper;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using NJsonSchema;
+using NSwag.AspNetCore;
 using Scraper.Core.Interfaces;
 using Scraper.Data.MongoDb;
 using Scraper.Scraping;
@@ -36,6 +39,11 @@ namespace Scraper.Web.Api
             {
                 app.UseDeveloperExceptionPage();
             }
+
+            app.UseSwaggerUi(typeof(Startup).GetTypeInfo().Assembly, settings =>
+            {
+                settings.GeneratorSettings.DefaultPropertyNameHandling = PropertyNameHandling.CamelCase;
+            });
 
             app.UseMvc();
         }
