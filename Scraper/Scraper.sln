@@ -11,6 +11,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentatio
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scraper.Core", "Scraper.Core\Scraper.Core.csproj", "{23D24B5C-E4FC-4AF6-9FC0-3E6831641A8D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scraper.Data.MongoDb", "Scraper.Data.MongoDb\Scraper.Data.MongoDb.csproj", "{2407A94D-81A2-4B4A-B8B5-0C2E7F9DF98C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,12 +23,17 @@ Global
 		{23D24B5C-E4FC-4AF6-9FC0-3E6831641A8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{23D24B5C-E4FC-4AF6-9FC0-3E6831641A8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{23D24B5C-E4FC-4AF6-9FC0-3E6831641A8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2407A94D-81A2-4B4A-B8B5-0C2E7F9DF98C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2407A94D-81A2-4B4A-B8B5-0C2E7F9DF98C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2407A94D-81A2-4B4A-B8B5-0C2E7F9DF98C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2407A94D-81A2-4B4A-B8B5-0C2E7F9DF98C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{23D24B5C-E4FC-4AF6-9FC0-3E6831641A8D} = {20A3C5B9-DE06-4AF7-B3AC-5C0E3399A690}
+		{2407A94D-81A2-4B4A-B8B5-0C2E7F9DF98C} = {A79E8BDD-A36B-4851-ADED-D497744C9F77}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AD43A705-FABF-47AD-8670-7EB02499DAF4}
